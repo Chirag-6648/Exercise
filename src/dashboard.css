@@ -1,0 +1,55 @@
+.container
+{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.sidebar
+{
+    background-color: rgb(37, 35, 35);
+    height: 97vh;
+    width: 30%;
+    overflow: auto;
+
+}
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: rgb(117, 117, 117); /* Scroll track color */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(39, 39, 46); /* Scroll thumb color */
+    border-radius: 6px; /* Optional: gives the thumb rounded corners */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(95, 93, 93); /* Darker thumb color on hover */
+  }
+  
+.content {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+li{
+    padding-bottom:20px;
+    list-style-type: none;
+}
+h1{
+  color :white
+}
